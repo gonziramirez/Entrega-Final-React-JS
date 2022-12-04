@@ -1,0 +1,22 @@
+@import '../../styles/colors.scss';
+
+.card-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.card-detail:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.img-producto{
+    width: auto;
+    height: 300px;
+}

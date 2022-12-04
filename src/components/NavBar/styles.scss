@@ -1,0 +1,25 @@
+@import "../../styles/colors.scss";
+
+.navbar{
+    background-color: rgb(256, 0, 0);
+    color: white;
+    list-style: none;
+    .li-navbar{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.logo{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.logo:hover{
+    background-color: white;
+    border-radius: 4px;
+    color: red;
+}
+
+

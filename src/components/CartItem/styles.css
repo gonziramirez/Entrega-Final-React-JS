@@ -1,0 +1,9 @@
+.icon-trash{
+    cursor: pointer;
+}
+.icon-trash:hover{
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.1s;
+}
